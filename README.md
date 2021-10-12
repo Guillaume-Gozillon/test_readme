@@ -29,4 +29,6 @@ Feature branches also make it easier for multiple developers to **collaborate on
 
 | Branch name| Nodes | Original branch | Lifecycle | Features | 
 | :---: | :---: | :---: | :---: | :---: | 
-| master | Unique | - | Permed | Code stable, testé et validé potentiellement éligible pour une MEP (Mise En Production) | 
+| master | Unique | - | Permed | Stable, tested and validated code. Potentially eligible for production | 
+| feature | Multiple | develop | Feature development | Code under development. Implementation of a feature that will have to be embedded in the next version of the application.  | 
+| develop | Unique | master | Permed | Code of the next version of the application. Once the development of a feature is finished, the code is merged on this branch | 
