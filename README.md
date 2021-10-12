@@ -6,7 +6,7 @@ This file is to help **newbies** get familiar with the Marble Bowl's contributio
 **Contents**
 
 - [Why GitFlow](#why-gitflow)
-- [Getting Started](#getting-started)
+- [Process](#process)
 - [Submitting a Pull Request](#submitting-a-pull-request)
 - [Adding to the Main README](#adding-to-the-main-readme)
 - [Adding to the Project File](#adding-to-the-project-file)
@@ -25,6 +25,8 @@ GitFlow offer the capability to makes **parallel development very easy**, by iso
 
 Feature branches also make it easier for multiple developers to **collaborate on the same feature**: each feature branch is a sandbox where the only changes are the changes necessary to get the new feature working. That makes it very easy to see and follow what each collaborator is doing.
 
-| Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11 | #12 |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269 | 254 |
+### Process
+
+| Branch name| Nodes | Original branch | Lifecycle | Features | 
+| :---: | :---: | :---: | :---: | :---: | 
+| master | Unique | - | Permed | Code stable, testé et validé potentiellement éligible pour une MEP (Mise En Production) | 
