@@ -28,11 +28,12 @@ La possibilité de créer plusieurs branches rend le developpement plus simple p
 
 Pour collaborer au projet MarbleBowl, il est nécéssaire de faire des `pull-request` (PR). 
 Lorsque vous débuterez une nouvelle fonctionnalité, ladite branche devra se nommer telle que : `feature- + nom de la fonctionnalité`;
+
 Par exemple : `feature-increment-counter`.
 
 Il est préférable de faire des *commits atomiques* (petits commits contenant chacun un petit changement) pour faciliter les code reviews
 
-**Branche master**
+**Branche `master`**
 
 La branche `master`est la branche principale, elle est gérée par le propriétaire du projet. 
 Le code est stable, testé et validé potentiellement éligible pour une *MEP* (Mise En Production)
