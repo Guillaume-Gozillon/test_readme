@@ -17,7 +17,7 @@ La possibilité de créer plusieurs branches rend le développement plus simple 
 
 Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `main`** pour travailler et tester l'application.
 
-Une fois la nouvelle fonctionnalité terminée, il faudra **pusher** le commit du code puis faire une `pull-request`.   
+Une fois que vous aurez terminé votre nouvelle fonctionnalité, il faudra **pusher** le commit du code puis faire une `pull-request`.   
 Si la fonctionnalité convient à l'ensemble des développeurs, la branche sera **mergée** sur la branche `develop`.
 
 ### Processus de collaboration
