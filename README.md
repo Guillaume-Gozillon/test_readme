@@ -41,7 +41,8 @@ Une fois que le développement d’une fonctionnalité (branche `feature`) est t
 
 **Branche feature-**
 
-La branche `feature-` correspodond au code en cours de développement, elle implémente une nouvelle fonctionnalité à embarquer pour la prochaine version de l’application.
+La branche `feature-` correspond au code en cours de développement, elle implémente une nouvelle fonctionnalité à embarquer pour la prochaine version de l’application.  
+Cette branche sera **merger** sur la branche `develop`.
 
 ### Soumettre une pull-request
 
