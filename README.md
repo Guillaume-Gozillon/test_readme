@@ -32,11 +32,11 @@ Il est préférable de faire des *commits atomiques* (petits commits contenant c
 **Branche main**
 
 La branche `main` est la **branche principale**, elle est gérée par le propriétaire du projet.   
-À ce moment là, le code est stable, testé et validé; potentiellement éligible à une **mise en production**.
+À ce stade du développement, le code est testé, validé et potentiellement éligible à une **mise en production**.
 
 **Branche develop**
 
-La branche `develop` est la branche commune à tous les developpeurs, elle correspond à la prochaine version de l’application.  
+La branche `develop` est la branche commune à tous les développeurs, elle correspond à la prochaine version de l’application.  
 Une fois que le développement d’une fonctionnalité (`feature`) est terminé, le code est fusionné sur cette branche.
 
 **Branche feature-**
