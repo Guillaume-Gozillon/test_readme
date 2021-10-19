@@ -18,7 +18,7 @@ La possibilité de créer plusieurs branches rend le développement plus simple 
 Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `main`** pour travailler et tester l'application.
 
 Une fois la nouvelle fonctionnalité terminée, il faudra **pusher** le commit du code puis faire une `pull-request`.   
-Si la fonctionnalité convient à l'ensemble des développeurs, la branche sera mergée sur la branche `develop`.
+Si la fonctionnalité convient à l'ensemble des développeurs, la branche sera **mergée** sur la branche `develop`.
 
 ### Processus de collaboration
 
@@ -33,12 +33,12 @@ Il est préférable de faire des *commits atomiques* (petits commits contenant c
 **Branche main**
 
 La branche `main` est la **branche principale**, elle est gérée par le propriétaire du projet.   
-À ce moment là, le code est stable, testé et validé; potentiellement éligible pour une **mise en production**.
+À ce moment là, le code est stable, testé et validé; potentiellement éligible à une **mise en production**.
 
 **Branche develop**
 
 La branche `develop` est la branche commune à tous les developpeurs, elle correspond à la prochaine version de l’application.  
-Une fois que le développement d’une fonctionnalité (branche `feature`) est terminé, le code est fusionné sur cette branche.
+Une fois que le développement d’une fonctionnalité (`feature`) est terminé, le code est fusionné sur cette branche.
 
 **Branche feature-**
 
@@ -47,7 +47,7 @@ Cette branche sera **merger** sur la branche `develop`.
 
 ### Soumettre une pull-request
 
-une fois que vous avez cloné le projet forké, il est necéssaire de créer une branche pour y soumettre la premère `pull-request` pour la nouvelle fonctionnalité :
+une fois que vous aurez forké le projet, il sera necéssaire de créer une branche pour y soumettre la premère `pull-request` de la nouvelle fonctionnalité :
 
 1 : Créer une nouvelle branche à partir de `develop` :
 `git checkout -b feature-new-branch`;
