@@ -14,15 +14,16 @@ La contribution au projet MarbleBowl se fait par **pull request**, en suivant la
 MarbleBowl est un **projet collaboratif open source**, le processus de développement se fait par **cycles itératifs**, chaque fonctionnalité doit donc être travaillée sur une **branche séparée** (en parallèle), dans le but de séparer le travail de chacun.
 
 La possibilité de créer plusieurs branches rend le développement plus simple pour **collaborer avec plusieurs développeurs sur un projet commun**, en isolant le code en cours de développement de celui qui est terminé. 
- 
-Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `develop`**
+
+Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `develop`** pour travailler et tester l'application.
 
 Une fois la branche poussée et validée par le gestionnaire du projet (via une `pull-request`), la fonctionnalité apparait sur la branche `develop`.
 
 ### Processus de collaboration
 
-Pour collaborer au projet MarbleBowl, il est nécéssaire de faire des `pull-request`.   
-Lorsque vous débuterez une nouvelle fonctionnalité, la branche branche en cours de développement devra se nommer tel que : `feature-nom-de-la-fonctionnalité`.
+Pour collaborer au projet, il est nécéssaire de faire des `pull-request`.   
+Lorsque vous débuterez une nouvelle fonctionnalité, la branche branche en cours de développement devra se nommer tel que :  
+`feature-nom-de-la-fonctionnalité`.
 
 Par exemple : `feature-increment-counter`.
 
