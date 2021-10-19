@@ -1,6 +1,6 @@
 # Pour contribuer à MarbleBowl
  
-La contribution au projet MarbleBowl se fait par **pull request**, en suivant la philosophie du modèle de branche **GitFlow**.  
+La contribution au projet MarbleBowl se fait par **pull request**, en suivant la philosophie du modèle de branche de **GitFlow**.  
 
 **Sommaire**
 
@@ -11,13 +11,14 @@ La contribution au projet MarbleBowl se fait par **pull request**, en suivant la
 
 ### Pourquoi GitFlow
 
-MarbleBowl est un **projet collaboratif open source**, le processus de développement se fait par **cycles itératifs**, chaque fonctionnalité doit donc être travaillée sur une **branche séparée** (en parallèle), dans le but de séparer le travail de chacun.
+MarbleBowl est un **projet collaboratif open source**, le processus de développement se fait par **cycles itératifs**, chaque fonctionnalité doit donc être travaillée sur une **branche séparée** (en parallèle), dans le but de distinguer le travail de chacun.
 
-La possibilité de créer plusieurs branches rend le développement plus simple pour **collaborer avec plusieurs développeurs sur un projet commun**, en isolant le code en cours de développement de celui qui est terminé. 
+La possibilité de créer plusieurs branches rend le développement plus simple pour **collaborer avec plusieurs développeurs sur un projet commun**, en isolant le code en cours de développement de celui qui est terminé et validé. 
 
-Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `develop`** pour travailler et tester l'application.
+Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `main`** pour travailler et tester l'application.
 
-Une fois la branche poussée et validée par le gestionnaire du projet (via une `pull-request`), la fonctionnalité apparait sur la branche `develop`.
+Une fois la nouvelle fonctionnalité terminée, il faudra **pusher** le commit du code puis faire une `pull-request`.   
+Si la fonctionnalité convient à l'ensemble des développeurs, la branche sera mergée sur la branche `develop`.
 
 ### Processus de collaboration
 
