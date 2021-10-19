@@ -51,3 +51,8 @@ La branche correspond à la prochaine version de l’application. Une fois que l
 => commit atomique
 
 => merging par utilisateur propriétaire
+
+ Markup : 1. A numbered list
+              1. A nested numbered list
+              2. Which is numbered
+          2. Which is numbered
