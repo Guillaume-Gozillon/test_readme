@@ -7,7 +7,7 @@ La contribution au projet se fait par **pull request**
 
 - [Pourquoi GitFlow](#pourquoi-gitflow)
 - [Processus de collaboration](#processus-de-collaboration)
-- [Submitting a Pull Request](#submitting-a-pull-request)
+- [Soumettre une pull-request](#soumettre-une-pull-request)
 
 
 ### Pourquoi GitFlow
@@ -33,7 +33,7 @@ Par exemple : `feature-increment-counter`.
 
 Il est préférable de faire des *commits atomiques* (petits commits contenant chacun un petit changement) pour faciliter les code reviews
 
-**Branche `master`**
+**Branche master**
 
 La branche `master`est la branche principale, elle est gérée par le propriétaire du projet. 
 Le code est stable, testé et validé potentiellement éligible pour une *MEP* (Mise En Production)
@@ -45,14 +45,19 @@ La branche correspond à la prochaine version de l’application. Une fois que l
 
 **Branche feature-**
 
-=> parler de la branche master
-=> parler de la branche develop
-=> parler de la branche hotfix
-=> commit atomique
+Code en cours de développement qui implémente une fonctionnalité à embarquer dans la prochaine version de l’application
 
-=> merging par utilisateur propriétaire
+### Soumettre une pull-request
 
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+une fois que vous avez cloné le projet forké, il est necéssaire de créer une branche pour y soumettre la premère `pull-request`:
+
+Créer une nouvelle branche à partir de `develop` :
+`git checkout -b feature-new-branch`
+
+Ajouter la feature à la zone de staging :
+`git add <file>`
+
+Commiter la fonctionnalité :
+`git commit -m "commit message"`
+
+Une fois la nouvelle fonctionnalité `pusher`sur Git, se rendre sur *Github* et 
