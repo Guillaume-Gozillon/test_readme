@@ -7,8 +7,6 @@ La contribution au projet se fait par **pull request**
 
 - [Pourquoi GitFlow](#pourquoi-gitflow)
 - [Processus de collaboration](#processus-de-collaboration)
-- [branch master](#branch-master)
-- [branch develop](#branch-develop)
 - [Submitting a Pull Request](#submitting-a-pull-request)
 
 
@@ -28,7 +26,10 @@ La possibilité de créer plusieurs branches rend le developpement plus simple p
 
 ### Processus de collaboration
 
+Pour collaborer au projet MarbleBowl, il est nécéssaire de faire des `pull-request` (PR). 
+Lorsque vous débuterez une nouvelle fonctionnalité, ladite branche devra se nommer telle que : `feature- + nom de la fonctionnalité`; par exemple : `feature-increment-counter`
 
+Il est préférable de faire des *commits atomiques* (petits commits contenant chacun un petit changement) pour faciliter les code reviews
 
 **Branche master**
 
@@ -39,6 +40,8 @@ Le code est stable, testé et validé potentiellement éligible pour une *MEP* (
 
 La branche `develop` est la branche commune à tous les developpeurs
 La branche correspond à la prochaine version de l’application. Une fois que le développement d’une fonctionnalité (branche `feature`) est terminé, le code est fusionné sur cette branche
+
+**Branche feature-**
 
 => parler de la branche master
 => parler de la branche develop
