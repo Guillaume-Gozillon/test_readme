@@ -15,12 +15,12 @@ MarbleBowl est un **projet collaboratif open source**, le processus de développ
 
 La possibilité de créer plusieurs branches rend le développement plus simple pour **collaborer avec plusieurs développeurs sur un projet commun**, en isolant le code en cours de développement de celui qui est terminé et validé. 
 
+### Processus de collaboration
+
 Le code en cours de développement doit se trouver **sur une branche parralèle à la branche `main`** pour travailler et tester l'application.
 
-Une fois que vous aurez terminé votre nouvelle fonctionnalité, il faudra **pusher** le commit du code puis faire une `pull-request`.   
+Une fois que vous aurez terminé votre nouvelle fonctionnalité, il faudra **pusher** un commit puis faire une `pull-request`.   
 Si la fonctionnalité convient à l'ensemble des développeurs, la branche sera **mergée** sur la branche `develop`.
-
-### Processus de collaboration
 
 Pour collaborer au projet, il est nécéssaire de faire des `pull-request`.   
 Lorsque vous débuterez une nouvelle fonctionnalité, la branche branche en cours de développement devra se nommer tel que :  
